@@ -1,1 +1,1 @@
-# https://grimjakub.github.io/FOT-AG/
+https://grimjakub.github.io/FOT-AG/
