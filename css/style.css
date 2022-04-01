@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
 body {
     margin: 0;
     line-height: 1.5;
@@ -9,7 +11,8 @@ body,
 input,
 textarea,
 button {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Bahnschrift', sans-serif;
     font-weight: 400;
 }
 
@@ -46,17 +49,17 @@ button {
 }
 
 .section-title {
-    flex: 0 0 100%;
+    /* flex: 0 0 100%; */
     max-width: 100%;
     /* margin-bottom: 30px; */
     /* padding: 0 0px; */
     background-color: #c1c1c1;
+    width: 100vw;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .section-title h1 {
     /* display: inline-block; */
-    font-size: 60px;
+    font-size: 70px;
     color: #ffffff;
     /* font-weight: 700; */
     margin: 0;
@@ -65,8 +68,8 @@ button {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-style:
+    font-weight: 600;
+    transform: scaleY(1.5);
 }
 
 .section-title h1:before {
@@ -270,7 +273,6 @@ button {
     background-position: center;
     position: relative;
     z-index: 1;
-    padding: 0 15px;
 }
 
 .home-section a:link {
@@ -286,7 +288,7 @@ button {
     right: 0;
     bottom: 0;
     background-color: #000000;
-    opacity: 0.7;
+    opacity: 0.5;
     z-index: -1;
 }
 
